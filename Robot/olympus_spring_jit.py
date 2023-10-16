@@ -1,4 +1,3 @@
-ffrom typing import Tuple
 from enum import IntEnum
 from omni.isaac.core.utils.types import ArticulationAction
 
@@ -17,7 +16,7 @@ class SpringMode(IntEnum):
     FRONT_INVERTED_BACK_NORMAL = 3
 
 
-class OlympusSpring:
+class OlympusSpringJIT:
     def __init__(
         self,
         k: float,
